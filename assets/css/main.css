@@ -122,29 +122,24 @@ header {
 
 /* portfolio section end */
 
-
-
+/* section resume start */
 .item-cont {
   max-width: 100%;
   height: 200vh;
   color: white;
-
-
 }
 
 .item-head h6 {
   text-align: center;
   font-size: 40px;
-
 }
-
 
 .item-name {
   width: 60%;
   font-size: 25px;
   display: flex;
   justify-content: space-between;
-padding: 40px 0px 0px 110px;
+  padding: 40px 0px 0px 110px;
 }
 
 .item-boxs {
@@ -153,9 +148,8 @@ padding: 40px 0px 0px 110px;
   grid-template-columns: auto auto;
   gap: 25px;
   padding: 40px 110px 110px 110px;
-  
-}
 
+}
 
 .item-box {
   width: 550px;
@@ -167,7 +161,6 @@ padding: 40px 0px 0px 110px;
 .item-text {
   width: 570px;
   padding: 35px;
-
 }
 
 .item-text span {
@@ -178,12 +171,86 @@ padding: 40px 0px 0px 110px;
 .item-text h3 {
   font-size: 19px;
   color: rgb(173, 173, 50);
-
 }
 
-.item-text h6, p{
+.item-text h6,
+p {
   color: rgba(255, 255, 255, 0.3);
 }
+
+/* section resume end */
+
+/*   section about start */
+.section-heading {
+  color: white;
+}
+
+.btn {
+  border-radius: 50px;
+  border: none;
+}
+
+.smoothscroll {
+  background-color: rgb(173, 173, 50);
+}
+
+/* section about end */
+
+.cart-img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.img-text {
+  width: 450px;
+  height: 180px;
+  margin-left: 30px;
+  background-color: #3d3c3c;
+  border-radius: 5px;
+}
+
+.img-text::before {
+  content: "";
+  z-index: 2;
+  position: absolute;
+  left: 137px;
+  border-width: 0 15px 20px 0;
+  border-style: solid;
+  border-color: transparent #333 transparent transparent;
+}
+
+.text-link span a {
+  text-decoration: none;
+  color: rgb(173, 173, 50);
+}
+
+.ro {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  padding: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
