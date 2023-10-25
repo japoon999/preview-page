@@ -244,15 +244,95 @@ p {
 }
 
 
+form h3 {
+  color: white;
+}
+
+.name input {
+  width: 630px;
+  height: 45px;
+  background-color: #333;
+  border-radius: 5px;
+  border: none;
+  padding-left: 20px;
+}
+
+.email input {
+  width: 630px;
+  height: 45px;
+  background-color: #333;
+  border-radius: 5px;
+  border: none;
+  padding-left: 20px;
 
 
+}
+
+.phone input {
+  width: 630px;
+  height: 45px;
+  background-color: #333;
+  border-radius: 5px;
+  border: none;
+  padding-left: 20px;
+}
+
+.textareas textarea {
+  width: 630px;
+  height: 300px;
+  background-color: #333;
+  border-radius: 5px;
+  border: none;
+  padding: 20px 0px 0px 20px;
+
+}
 
 
+.contact {
+  margin-top: 80px;
+  display: flex;
+}
 
 
+.name,
+.email,
+.phone {
+  height: 70px;
+}
+
+.button {
+  margin-top: 40px;
+}
+
+.button input {
+  width: 200px;
+  border-radius: 50px;
+  padding: 15px;
+  border: none;
+  background-color: #bac964;
+  color: white;
+}
 
 
+.contact-details ul li span {
+  color: #2c3e50;
+  display: block;
+}
 
+.contact-details ul li {
+  color: white;
+}
+
+
+.contact-details h3 {
+  color: white;
+  margin-left: 30px;
+}
+
+.contact-details ul {
+  height: 600px;
+  margin-top: 50px;
+}
 
 
 
